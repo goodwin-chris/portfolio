@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Goodwin - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #222;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+        }
+        nav {
+            margin-bottom: 30px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .job, .education {
+            margin-bottom: 25px;
+        }
+        .job h3, .education h3 {
+            margin-bottom: 5px;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .contact-info p {
+            margin: 4px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Christopher Goodwin</h1>
+        <p>IT Technical Support Specialist</p>
+        <div class="contact-info">
+            <p>Email: goodwin.chris2025@gmail.com | Phone: (848) 238-9257</p>
+            <p>Location: Cibolo, TX 78108</p>
+        </div>
+    </header>
+
+    <section id="summary">
+        <h2>Professional Summary</h2>
+        <p>
+            IT Technical Support Specialist supporting enterprise environments across Active Directory,
+            Entra ID (Azure AD), and VDI. Provide first-line support for 1000+ users in a high-volume
+            environment, maintaining 90%+ First Call Resolution.
+        </p>
+        <p>
+            Specialize in identity and access management, troubleshooting, and improving support operations
+            through PowerShell automation and process optimization. Experienced with ticketing systems,
+            remote support tools, and developing documentation that reduces repeat issues and improves user experience.
+        </p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="job">
+            <h3>Technical Support Specialist</h3>
+            <p class="date">Salelytics, San Antonio, TX | Mar 2025 - Present</p>
+            <ul>
+                <li>Provide Tier 1 / Tier 2 support for ~1000+ users in a high-volume enterprise environment, resolving account, VDI, network, and endpoint issues.</li>
+                <li>Handle 20-40+ tickets per day while maintaining strong resolution rates and user satisfaction.</li>
+                <li>Develop PowerShell automation to streamline Active Directory operations and reduce manual workload.</li>
+                <li>Developed a PowerShell-based automation tool for AD group management, reducing bulk user updates from hours to minutes.</li>
+                <li>Developed API-integrated automation to streamline user ID generation for new hires, producing import-ready data for rapid provisioning.</li>
+                <li>Reduced password reset ticket volume by 50% in 3 months by developing a PowerShell automation that identified upcoming password expirations in Active Directory and sent targeted HTML email notifications to users.</li>
+                <li>Manage identity and access in Active Directory and Entra ID, including provisioning, access control, and MFA support.</li>
+                <li>Troubleshoot VDI environments and VPN connectivity (GlobalProtect), resolving login, profile, and network issues.</li>
+                <li>Utilize ConnectWise Manage, Automate, and ScreenConnect for ticketing, automation, and remote support.</li>
+                <li>Develop standardized onboarding documentation to improve consistency and reduce onboarding-related support issues.</li>
+                <li>Deliver customer-focused technical support with clear communication and timely resolution of user issues.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Volunteer IT Tech</h3>
+            <p class="date">Revolution Church, Selma, TX | Oct 2024 - Jan 2026</p>
+            <ul>
+                <li>Set up remote desktop and VPN solutions.</li>
+                <li>Installed and managed network equipment and structured cabling.</li>
+                <li>Supported AV systems and live production environments.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Desktop Support Technician</h3>
+            <p class="date">WorldWide Tech Services, San Antonio, TX | Feb 2025 - Mar 2025</p>
+            <ul>
+                <li>Diagnosed hardware/software issues and performed system upgrades across enterprise devices.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Network / Low Voltage Technician</h3>
+            <p class="date">Gold Protective Systems, Freehold, NJ | Feb 2017 - Mar 2019</p>
+            <ul>
+                <li>Installed and configured CCTV, access control, and network cabling systems.</li>
+                <li>Troubleshot connectivity and configured networking devices.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>Jackson Liberty High School</h3>
+            <p>High School Diploma</p>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Key Achievements</h2>
+        <ul>
+            <li>Developed a script leveraging an internal API to automate user ID generation for new hires, producing import-ready CSV files and significantly reducing manual provisioning time.</li>
+            <li>Developed a PowerShell-based Active Directory group management tool to automate bulk user updates, reducing tasks from hours to minutes.</li>
+            <li>Reduced password reset ticket volume by 50% in 3 months through PowerShell automation and proactive user communication.</li>
+            <li>Achieved and maintained 90%+ First Call Resolution (FCR) in a high-volume support environment.</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Systems:</strong> Windows 10/11, Windows Server, macOS, Linux</li>
+            <li><strong>Identity:</strong> Active Directory, Entra ID (Azure AD), Group Policy</li>
+            <li><strong>Cloud/MDM:</strong> Microsoft Intune, Microsoft 365</li>
+            <li><strong>Networking:</strong> TCP/IP, DNS, DHCP, VPN, Network troubleshooting</li>
+            <li><strong>Tools:</strong> ConnectWise Manage, Automate, ScreenConnect, ServiceNow, Remote Desktop, VDI</li>
+            <li><strong>Scripting:</strong> PowerShell, Python (basic)</li>
+            <li><strong>Hardware:</strong> Desktop/laptop repair (Dell & Lenovo certified)</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>CompTIA A+ (2025)</li>
+            <li>Dell Certified Repair Technician (2025)</li>
+            <li>Lenovo Certified Repair Technician (2025)</li>
+            <li>CompTIA Network+ (In Progress)</li>
+            <li>CompTIA Security+ (Planned, willing to obtain within 60 days)</li>
+        </ul>
+    </section>
+</body>
+</html>
